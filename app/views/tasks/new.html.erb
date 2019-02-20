@@ -1,0 +1,38 @@
+<%= form_for @task do |form| %>
+  <%= form.label :title %>
+  <%= form.text_field :title %>
+  <%= form.label :details %>
+  <%= form.text_field :details %>
+  <%= form.label :title %>
+  <%= form.text_field :completed %>
+  <%= form.submit %>
+<% end %>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <form action="/tasks" method="post">
+
+  <label for="title">Enter the title</label>
+  <input type="text" title="task[title]">
+
+  <label for="title">Enter the details</label>
+  <input type="text" title="task[details]">
+
+  <label for="title">Enter the completed</label>
+  <input type="text" title="task[completed]">
+
+  <input type="submit">
+
+</form>
+ -->
